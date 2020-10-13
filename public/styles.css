@@ -1,26 +1,36 @@
 /* Color Scheme To Use: #ffcc00, #009933, #ce0000 */
-
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 body {
-    background-color:white;
+    background-color:#ffcc00;
+    text-align: center;
+    align-items: center;
 }
 
 .navbar-light .navbar-brand {
     color: #009933;
-    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
 }
 
 .nav-link {
-    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Indie Flower', cursive;
     color: white;
+    font-size: 20px;
 }
 
 .dropdown-item {
-    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Indie Flower', cursive;
     color: white;
+    font-size: 20px;
 }
 
-#social-links {
+#welcome {
     margin-top: 5px;
-    position: relative;
-    align-self: auto;
+    font-family: 'Indie Flower', cursive;
+    opacity: .7;
+}
+
+.carousel {
+    width: 80%;
+    margin: 0 auto;
 }
